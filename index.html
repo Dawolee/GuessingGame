@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  </head>
+
+  <body>
+
+    <div id="game" class="container center">
+
+      <div id="header">
+        <h2 id="title">Play the Guessing Game!</h2>
+        <p id="subtitle">Guess a number between 1-100</p>
+      </div>
+
+      <div id="main">
+        <div id="display">
+          <input placeholder="Guess Here!" id="numdisplay"></input>
+          <button id="submit">Go!</button>
+        </div>
+
+        <div id="guesses">
+          <ul>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+            <li>-</li>
+          </ul>
+        </div>
+
+        <div id="menu-btns">
+          <button class="btn btn-warning" id="resetGame">Reset Game</button>
+          <button class="btn btn-info" id="hint">Click for Hint</button>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="footer" class="center">
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <img id="fs" src="fa-logo@2x.png">
+        </div>
+
+        <div class="col-sm-4" id="name">
+          <p>Project by Da Woon Lee</p>
+        </div>
+
+        <div class="col-sm-4">
+          <img id="gs" src="grace_hopper_academy.png">
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+  <script src="jquery-3.3.1.js"></script>
+  <script src="GuessingGame.js"></script>
+
+</html>
